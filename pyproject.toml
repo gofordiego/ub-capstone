@@ -1,0 +1,14 @@
+[project]
+name = "ub-capstone"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair[all,vl-convert]>=5.5.0",
+    "geopandas>=1.1.1",
+    "ipykernel>=6.30.0",
+    "ipython>=9.4.0",
+    "pandas>=2.3.1",
+    "vegafusion[embed]>=2.0.2",
+]
